@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
     <title>Login</title>
 </head>
 <body>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./login.html">Login</a>
-    </nav>
+    <header>
+        <img src="./icon.png" alt="Logo SeloVerifica" id="logo" />
+        <h1>SeloVerifica</h1>
+        <nav>
+            <h3>
+                <a href="./index.html" class="nav-links">Home</a>
+                <a href="./signup.html" class="nav-links">Criar Conta</a>
+            </h3>
+        </nav>
+    </header>
 
     <main>
         <section>
-            <p>Login</p>
+            <h1>Login</h1>
 
-            <form action="./index.html">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required><br>
+            <form action="./index.html" id="login">
+                <div class="field-pad">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" style="width: 75%;" required>
+                </div>
+                
+                <div class="field-pad">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" style="width: 75%;" required>
+                </div>
 
                 <input type="submit" value="Entrar">
             </form>

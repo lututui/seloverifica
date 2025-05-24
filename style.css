@@ -1,0 +1,118 @@
+body {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #2f4f3f;
+    background-color: #d2e4d6;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #FFFFF0;
+  border-color: #38382f;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+#logo {
+    height: 100px;
+    float: left;
+}
+
+header h1 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+nav {
+    float: right;
+    padding-top: 23px;
+    padding-right: 20px;
+}
+
+.nav-links {
+    padding-right: 10px;
+    text-decoration: none;
+    color: #2c5f53;
+    text-shadow: 2px 1px 0 #98b0a9;
+    transition: all .2s; 
+    display: inline-block;
+}
+
+.nav-links:hover {
+    transform: scale(1.2);
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#preview-text {
+    font-size: xx-large;
+}
+
+#login {
+    width: 50%;
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 20%;
+    background-color: #2c5f53;
+    color: white;
+    cursor: pointer;
+}
+
+#functionality {
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.functionality-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 30%;
+}
+
+.functionality-item p {
+    padding-left: 10px;
+    width: 90%;
+}
+
+
+.material-symbols-outlined.big { font-size: 96px; }
+
+label {
+    font-size: 20px;
+    color: #2c5f53;
+}
+
+.field-pad {
+    padding-bottom: 10px;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

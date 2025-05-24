@@ -1,41 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <title>SeloVerifica - Página Inicial</title>
 </head>
 <body>
     <header>
-        SeloVerifica
+        <img src="./icon.png" alt="Logo SeloVerifica" id="logo" />
+        <h1>SeloVerifica</h1>
+        <nav>
+            <h3>
+                <a href="./login.html" class="nav-links">Login</a>
+                <a href="./signup.html" class="nav-links">Criar Conta</a>
+            </h3>
+        </nav>
     </header>
-    <nav>
-        <a href="./login.html">Login</a>
-    </nav>
+    
     <main>
-        <section>
+        <section id="preview-text">
             <h1>Verifique Selos Ambientais</h1>
             <p>Confira a autenticidade de selos ecológicos, entenda seus significados e ajude a combater o greenwashing</p>
         </section>
         <section>
             <form>
-                <input type="text" placeholder="Pesquisar selos" required />
+                <input type="text" placeholder="Pesquisar selos" style="width: 75%;" required />
                 <input type="submit" value="Busca" />
             </form>
         </section>
-        <section>
-            <p>Consulte selos</p>
-            <p>Encontre informações sobre selos ambientais e seus significados</p>
+        <section id="functionality">
+            <section class="functionality-item">
+                <i class="material-symbols-outlined big">energy_program_saving</i>
+                <h3>Consulte selos</h3>
+                <p>Encontre informações sobre selos ambientais e seus significados</p>
+            </section>
+            <section class="functionality-item">
+                <i class="material-symbols-outlined big">warning</i>
+                <h3>Denuncie suspeitas</h3>
+                <p>Denuncie o uso incorreto de selos ou suspeitas de greenwashing</p>
+            </section>
+            <section class="functionality-item">
+                <i class="material-symbols-outlined big">playlist_add</i>
+                <h3>Crie suas listas</h3>
+                <p>Crie listas de produtos e serviços com selos ecológicos confiáveis</p>
+            </section>
         </section>
-        <section>
-            <p>Denuncie suspeitas</p>
-            <p>Denuncie o uso incorreto de selos ou suspeitas de greenwashing</p>
-        </section>
-        <section>
-            <p>Crie suas listas</p>
-            <p>Crie listas de produtos e serviços com selos ecológicos confiáveis</p>
-        </section>
-        
     </main>
 </body>
 </html>
