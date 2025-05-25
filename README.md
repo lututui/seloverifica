@@ -9,6 +9,19 @@ SeloVerifica é uma plataforma web voltada ao consumidor consciente, cujo objeti
 * Denunciar falsos selos ou embalagens suspeitas de “greenwashing”
 * Selos verdadeiros x selos questionáveis
 
+# Estrutura
+```
+- index - Página inicial
+- login - Página de login
+- signup - Página de criação de conta
+- selos/ - Diretório com páginas de determinados selos ambientais
+```
+
+# ODS
+<img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-12.svg" width=150>
+
+Este projeto é uma proposta de um serviço que atende ao [Objetivo de Desenvolvimento Sustentável 12: Assegurar padrões de produção e de consumo sustentáveis](https://brasil.un.org/pt-br/sdgs/12).
+
 # Acesso
 
 [GitHub Pages](https://lututui.github.io/seloverifica/index.html)
