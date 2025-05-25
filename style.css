@@ -17,7 +17,7 @@ header {
   display: inline-block;
 }
 
-#logo {
+.logo {
     height: 75px;
     padding-left: 12px;
     padding-top: 12px;
@@ -154,4 +154,15 @@ footer h3 {
     padding-top: 10px;
     padding-right: 50px;
     float: right;
+}
+
+.selo-item {
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+
+#selos {
+    padding-top: 20px;
+    padding-bottom: 250px;
 }

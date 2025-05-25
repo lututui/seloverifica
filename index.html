@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="./icon.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>SeloVerifica - Página Inicial</title>
 </head>
 <body>
     <header>
-        <img src="./icon.png" alt="Logo SeloVerifica" id="logo" />
+        <img src="./icon.png" alt="Logo SeloVerifica" class="logo">
         <h1>SeloVerifica</h1>
         <nav>
             <h3>
@@ -23,16 +23,17 @@
     
     <main>
         <section id="preview-text">
-            <h1>Verifique Selos Ambientais</h1>
+            <h2>Verifique Selos Ambientais</h2>
             <p>Confira a autenticidade de selos ecológicos, entenda seus significados e ajude a combater o greenwashing</p>
         </section>
-        <section>
+        <div>
             <form>
-                <input type="text" placeholder="Pesquisar selos" style="width: 75%;" required />
-                <input type="submit" value="Busca" />
+                <input type="text" placeholder="Pesquisar selos" style="width: 75%;" required>
+                <input type="submit" value="Busca">
             </form>
-        </section>
-        <section id="functionality">
+        </div>
+
+        <div id="functionality">
             <section class="functionality-item">
                 <i class="material-symbols-outlined big">energy_program_saving</i>
                 <h3>Consulte selos</h3>
@@ -48,11 +49,24 @@
                 <h3>Crie suas listas</h3>
                 <p>Crie listas de produtos e serviços com selos ecológicos confiáveis</p>
             </section>
-        </section>
+        </div>
+
+        <div id="selos">
+            <h2>Selos</h2>
+            <div class="selo-item">
+                <a href="./selos/fsc.html"><img src="./selos/fsc.png" alt="FSC Logo" width="200"></a>
+            </div>
+            <div class="selo-item" style="padding-top: 40px">
+                <a href="./selos/certified-humane-brasil.html"><img src="./selos/certified-humane-brasil.png" alt="Certified Humane Brasil Logo" width="200"></a>
+            </div>
+            <div class="selo-item" style="padding-top: 40px;">
+                <a href="./selos/organico-brasil.html"><img src="./selos/organico-brasil.png" alt="Orgânico Brasil Logo" width="200"></a>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <img src="./icon.png" alt="Logo SeloVerifica" id="logo" />
+        <img src="./icon.png" alt="Logo SeloVerifica" class="logo">
         <h3>
             Criador por <a href="https://lututui.github.io/">Luiz Arthur <i class="fa fa-external-link"></i></a> <a href="https://github.com/lututui/"><i class="fa fa-github"></i></a>
         </h3>
