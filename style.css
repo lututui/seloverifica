@@ -71,7 +71,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
     border: 1px solid #ccc;
 }
 
-input[type="submit"] {
+input[type="submit"], button {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -143,6 +143,11 @@ footer #logo {
 footer a {
     text-decoration: none;
     color: #2c5f53;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
 
 footer h3 {
