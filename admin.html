@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="stylesheet" href="./font/poppins-font.css">
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SeloVerifica - Admin</title>
+    <script src="./js/admin.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./icon.png" alt="Logo SeloVerifica" class="logo">
+        <h1 class="logo">SeloVerifica</h1>
+        <nav>
+            <h3>
+                <a href="./index.html" class="nav-links">Home</a>
+                <a href="./login.html" class="nav-links">Login</a>
+                <a href="./signup.html" class="nav-links">Criar Conta</a>                
+            </h3>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Cadastrar usuário</h2>
+            <form id="admin-form">
+                <div class="field-pad">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" style="width: 75%;" required>
+                </div>
+                
+                <div class="field-pad">
+                    <label for="username">Nome de usuário:</label>
+                    <input type="text" id="username" name="username" style="width: 64%;" required>
+                </div>
+
+                <div class="field-pad">
+                    <i class="material-symbols-outlined" id="clear-form">delete</i>
+                    <input type="submit" value="Cadastrar" style="width: 20%;">
+                </div>
+            </form>
+        </section>
+        <section>
+            <h2>Usuários cadastrados</h2>
+            <div class="field-pad">
+                <input type="text" id="search" placeholder="Pesquisar usuário" style="width: 50%;">
+                <button id="search-button" style="width: 20%;">Pesquisar<i class="material-symbols-outlined">search</i></button>
+                <button id="delete-all" style="width: 25%;">Remover todos<i class="material-symbols-outlined">delete_history</i></button>
+            </div>
+            <div id="users-box">
+                <table id="user-table">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Email</th>
+                            <th>Nome de usuário</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Os usuários cadastrados serão listados aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="./icon.png" alt="Logo SeloVerifica" class="logo">
+        <h3>
+            Criador por <a href="https://lututui.github.io/">Luiz Arthur <i class="fa fa-external-link"></i></a> <a href="https://github.com/lututui/"><i class="fa fa-github"></i></a>
+        </h3>
+    </footer>
+</body>
+</html>
